@@ -9,7 +9,6 @@ const Home = () => {
   // LOADING: @apollo/client lib provides this propery to indicate request isn't done yet
   // when finished/data retunred from server, the info is stored in the destructured DATA propery
   const thoughts = data?.thoughts || [];
-  console.log('thoughts from data:', thoughts);
 
   return (
     <main>
